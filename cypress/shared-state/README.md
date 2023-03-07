@@ -1,4 +1,4 @@
-# cypress basic example
+# cypress/shared-state example
 
 ## How to run
 

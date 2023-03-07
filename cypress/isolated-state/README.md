@@ -1,4 +1,4 @@
-# cypress basic example
+# cypress/isolated-state example
 
 ## How to run
 
