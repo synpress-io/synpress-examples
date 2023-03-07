@@ -4,7 +4,9 @@ This repository contains different examples of usage for [synpress](https://gith
 
 For more information about the framework, please refer to the [synpress](https://github.com/Synthetixio/synpress) repository.
 
-🔥 Synpress works out-of-the-box with other frameworks! There is no need to use it directly. Check examples to see how to use it.
+🔥 Synpress works out-of-the-box with other frameworks! There is no need to use it directly.
+
+Check [examples](https://github.com/drptbl/synpress-examples#available-examples) below to see how to use it.
 
 ## Supported frameworks
 
