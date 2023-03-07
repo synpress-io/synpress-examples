@@ -1,0 +1,15 @@
+{
+  "name": "shared-state-example",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.31.2",
+    "@synthetixio/synpress": "^3.3.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "SERIAL_MODE=true playwright test --project=chromium",
+    "test:headless": "HEADLESS_MODE=true SERIAL_MODE=true playwright test --project=chromium",
+    "start:server": "serve ../../node_modules/@metamask/test-dapp/dist -p 3000"
+  }
+}
