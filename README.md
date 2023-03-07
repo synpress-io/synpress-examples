@@ -20,7 +20,9 @@ Check [examples](https://github.com/drptbl/synpress-examples#available-examples)
 
 ## Available examples
 
-- synpress
+- [Synpress](https://github.com/drptbl/synpress-examples/tree/master/synpress) => examples of how to use synpress directly.
+  - [basic](https://github.com/drptbl/synpress-examples/tree/master/synpress/basic) => example setup of Synpress using shared state meaning that each test is run on same instance of tested website. Metamask extension state is also shared all the time.
+  - [with-docker](https://github.com/drptbl/synpress-examples/tree/master/synpress/with-docker) => example setup of Synpress using shared state meaning that each test is run on same instance of tested website. Metamask extension state is also shared all the time. It has additional docker integration with many benefits like recording of videos, VNC, noVNC and ngrok.
 - [Playwright](https://github.com/drptbl/synpress-examples/tree/master/playwright) => examples of how to use synpress with Playwright.
   - [isolated-state](https://github.com/drptbl/synpress-examples/tree/master/playwright/isolated-state) => example setup of Playwright with synpress using isolated state meaning that each test is run in a separate browser context with fresh instance of metamask extension. Test isolation is preferred way of running tests, but it takes more time for setting up metamask extension before each test.
   - [shared-state](https://github.com/drptbl/synpress-examples/tree/master/playwright/shared-state) => example setup of Playwright with synpress using shared state meaning that each test is run in same browser context and share same instance of metamask extension.
