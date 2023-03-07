@@ -1,0 +1,17 @@
+{
+  "name": "cypress-basic-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@synthetixio/synpress": "^3.3.1",
+    "cypress": "^12.7.0",
+    "env-cmd": "^10.1.0",
+    "start-server-and-test": "^2.0.0"
+  },
+  "scripts": {
+    "cypress:run": "env-cmd cypress run --browser chrome --headed",
+    "start:server": "serve ../../node_modules/@metamask/test-dapp/dist -p 3000",
+    "test": "start-server-and-test 'yarn start:server' http-get://localhost:3000 'yarn cypress:run'"
+  }
+}
