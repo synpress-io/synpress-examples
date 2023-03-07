@@ -1,4 +1,3 @@
-// fixtures.ts
 import { test as base, chromium, type BrowserContext } from '@playwright/test';
 import { initialSetup } from '@synthetixio/synpress/commands/metamask';
 import { prepareMetamask } from '@synthetixio/synpress/helpers';
