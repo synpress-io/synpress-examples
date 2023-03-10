@@ -4,7 +4,7 @@
   "license": "MIT",
   "devDependencies": {
     "@playwright/test": "^1.31.2",
-    "@synthetixio/synpress": "^3.3.0"
+    "@synthetixio/synpress": "^3.5.1"
   },
   "scripts": {
     "test": "SERIAL_MODE=true playwright test --project=chromium",

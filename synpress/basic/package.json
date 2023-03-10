@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "devDependencies": {
-    "@synthetixio/synpress": "^3.3.1",
+    "@synthetixio/synpress": "^3.5.1",
     "env-cmd": "^10.1.0",
     "start-server-and-test": "^2.0.0"
   },
@@ -11,7 +11,7 @@
     "**/underscore": "^1.13.6"
   },
   "scripts": {
-    "synpress:run": "env-cmd synpress run --config baseUrl=http://localhost:3000",
+    "synpress:run": "env-cmd synpress run",
     "start:server": "serve ../../node_modules/@metamask/test-dapp/dist -p 3000",
     "test": "start-server-and-test 'yarn start:server' http-get://localhost:3000 'yarn synpress:run'",
     "test:headless": "start-server-and-test 'yarn start:server' http-get://localhost:3000 'yarn synpress:run --headless'"
