@@ -1,19 +1,18 @@
 {
-  "name": "with-docker-example",
+  "name": "@synpress-io/synpress-basic-example",
   "version": "1.0.0",
+  "repository": "git@github.com:synpress-io/synpress-examples.git",
+  "author": "Jakub Mucha <jakub.mucha@icloud.com>",
   "license": "MIT",
   "devDependencies": {
-    "@synthetixio/synpress": "^3.5.1",
-    "env-cmd": "^10.1.0",
+    "@synthetixio/synpress": "^3.7.1",
+    "serve": "^14.2.0",
     "start-server-and-test": "^2.0.0"
   },
-  "resolutions": {
-    "**/underscore": "^1.13.6"
-  },
   "scripts": {
-    "synpress:run": "env-cmd synpress run",
+    "synpress:run": "synpress run",
     "start:server": "serve ../../node_modules/@metamask/test-dapp/dist -p 3000",
-    "test": "start-server-and-test 'yarn start:server' http-get://localhost:3000 'yarn synpress:run'",
-    "test:headless": "start-server-and-test 'yarn start:server' http-get://localhost:3000 'yarn synpress:run --headless'"
+    "test": "start-server-and-test 'pnpm start:server' http-get://localhost:3000 'pnpm synpress:run'",
+    "test:headless": "start-server-and-test 'pnpm start:server' http-get://localhost:3000 'pnpm synpress:run --headless'"
   }
 }
