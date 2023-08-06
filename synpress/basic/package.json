@@ -5,7 +5,7 @@
   "author": "Jakub Mucha <jakub.mucha@icloud.com>",
   "license": "MIT",
   "devDependencies": {
-    "@synthetixio/synpress": "^3.7.1",
+    "@synthetixio/synpress": "^3.7.2-beta.0",
     "serve": "^14.2.0",
     "start-server-and-test": "^2.0.0"
   },
