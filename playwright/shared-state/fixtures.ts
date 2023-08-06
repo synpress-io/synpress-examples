@@ -7,7 +7,7 @@ export const test = base.extend<{
   context: BrowserContext;
 }>({
   context: async ({}, use) => {
-    // required for synpress
+    // required for synpress as it shares same expect instance as playwright
     await setExpectInstance(expect);
 
     // download metamask

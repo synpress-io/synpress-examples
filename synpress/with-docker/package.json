@@ -1,6 +1,8 @@
 {
-  "name": "with-docker-example",
+  "name": "@synpress-io/synpress-in-docker-example",
   "version": "1.0.0",
+  "repository": "git@github.com:synpress-io/synpress-examples.git",
+  "author": "Jakub Mucha <jakub.mucha@icloud.com>",
   "license": "MIT",
   "devDependencies": {
     "@synthetixio/synpress": "^3.7.2-beta.0",

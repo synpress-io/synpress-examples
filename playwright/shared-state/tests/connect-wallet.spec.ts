@@ -1,6 +1,6 @@
 import { test, expect } from "../fixtures";
 import * as metamask from "@synthetixio/synpress/commands/metamask";
-import { Page } from "@playwright/test";
+import { type Page } from "@playwright/test";
 
 let sharedPage: Page;
 
@@ -11,8 +11,8 @@ test.beforeAll(async ({ page }) => {
   await sharedPage.goto("http://localhost:3000");
 });
 
-test.afterAll(async ({ context }) => {
-  await context.close();
+test.afterAll(async ({}) => {
+  await sharedPage.close();
 });
 
 test("connect wallet using default metamask account", async () => {
