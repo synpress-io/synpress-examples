@@ -2,5 +2,5 @@
 
 ## How to run
 
-- `yarn install`
-- `yarn test` or `yarn test:headless`
+- `pnpm install`
+- `pnpm test` or `pnpm test:headless`

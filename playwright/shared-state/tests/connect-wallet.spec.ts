@@ -1,7 +1,8 @@
 import { test, expect } from "../fixtures";
 import * as metamask from "@synthetixio/synpress/commands/metamask";
+import { Page } from "@playwright/test";
 
-let sharedPage;
+let sharedPage: Page;
 
 test.describe.configure({ mode: "serial" });
 
