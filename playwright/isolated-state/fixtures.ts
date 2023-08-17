@@ -1,6 +1,7 @@
 import { test as base, chromium, type BrowserContext } from "@playwright/test";
 import { initialSetup } from "@synthetixio/synpress/commands/metamask";
 import { setExpectInstance } from "@synthetixio/synpress/commands/playwright";
+import { resetState } from "@synthetixio/synpress/commands/synpress";
 import { prepareMetamask } from "@synthetixio/synpress/helpers";
 
 export const test = base.extend<{
@@ -51,6 +52,8 @@ export const test = base.extend<{
     await use(context);
 
     await context.close();
+
+    await resetState();
   },
 });
 
