@@ -5,8 +5,8 @@
   "author": "Jakub Mucha <jakub.mucha@icloud.com>",
   "license": "MIT",
   "devDependencies": {
-    "@playwright/test": "^1.36.2",
-    "@synthetixio/synpress": "3.7.2-beta.1",
+    "@playwright/test": "^1.37.0",
+    "@synthetixio/synpress": "3.7.2-beta.2",
     "serve": "^14.2.0"
   },
   "scripts": {
