@@ -6,7 +6,7 @@
   "license": "MIT",
   "devDependencies": {
     "@playwright/test": "^1.37.0",
-    "@synthetixio/synpress": "3.7.2-beta.2",
+    "@synthetixio/synpress": "3.7.2-beta.3",
     "serve": "^14.2.0"
   },
   "scripts": {

@@ -9,8 +9,8 @@ devDependencies:
     specifier: ^1.37.0
     version: 1.37.0
   '@synthetixio/synpress':
-    specifier: 3.7.2-beta.2
-    version: 3.7.2-beta.2(@babel/core@7.22.9)(@babel/preset-env@7.22.9)(babel-loader@9.1.3)(react-dom@18.2.0)(react@18.2.0)(webpack@5.88.2)
+    specifier: 3.7.2-beta.3
+    version: 3.7.2-beta.3(@babel/core@7.22.9)(@babel/preset-env@7.22.9)(babel-loader@9.1.3)(react-dom@18.2.0)(react@18.2.0)(webpack@5.88.2)
   serve:
     specifier: ^14.2.0
     version: 14.2.0
@@ -1479,14 +1479,14 @@ packages:
     resolution: {integrity: sha512-bcKpo1oj54hGholplGLpqPHRbIsnbixFtc06nwuNM5/dwSXOq/AAYoIBRsBmnZJSdfeNW5rnff7NTAz3ZCqR9Q==}
     dependencies:
       '@noble/curves': 1.0.0
-      '@noble/hashes': 1.3.0
+      '@noble/hashes': 1.3.1
       '@scure/base': 1.1.1
     dev: true
 
   /@scure/bip39@1.2.0:
     resolution: {integrity: sha512-SX/uKq52cuxm4YFXWFaVByaSHJh2w3BnokVSeUJVCv6K7WulT9u2BuNRBhuFl8vAuYnzx9bEu9WgpcNYTrYieg==}
     dependencies:
-      '@noble/hashes': 1.3.0
+      '@noble/hashes': 1.3.1
       '@scure/base': 1.1.1
     dev: true
 
@@ -1509,8 +1509,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /@synthetixio/synpress@3.7.2-beta.2(@babel/core@7.22.9)(@babel/preset-env@7.22.9)(babel-loader@9.1.3)(react-dom@18.2.0)(react@18.2.0)(webpack@5.88.2):
-    resolution: {integrity: sha512-xHxEuiZJQDr6+x1cP9hjRqonLtN1zCucLASAYxxXAldpKUoPVqp9ekpV9VbWyOFtDr0mK2bMuXMCOwZ90wO+9Q==}
+  /@synthetixio/synpress@3.7.2-beta.3(@babel/core@7.22.9)(@babel/preset-env@7.22.9)(babel-loader@9.1.3)(react-dom@18.2.0)(react@18.2.0)(webpack@5.88.2):
+    resolution: {integrity: sha512-18eb//6cKpGF0hgaZkfFnjh9pcacONhZN0nQ+RuCrnL4hnWkjaYE1sbW97hSd4r1obUau20r7BOhserlZq7eBg==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
