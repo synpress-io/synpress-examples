@@ -1,17 +1,23 @@
-lockfileVersion: '6.0'
+lockfileVersion: '9.0'
 
 settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  '@metamask/test-dapp':
-    specifier: ^7.0.1
-    version: 7.0.1
+importers:
+
+  .:
+    dependencies:
+      '@metamask/test-dapp':
+        specifier: ^7.0.1
+        version: 7.0.1
 
 packages:
 
-  /@metamask/test-dapp@7.0.1:
+  '@metamask/test-dapp@7.0.1':
     resolution: {integrity: sha512-HB7wbzU9mizzuv1Tcjh/PAXwayw/nyHnDv1V0ySyoqGM+o/MswdLpPApwT+HIZJuL/bHpu8PHPYfouujy9EfoQ==}
     engines: {node: '>= 16.0.0'}
-    dev: false
+
+snapshots:
+
+  '@metamask/test-dapp@7.0.1': {}
